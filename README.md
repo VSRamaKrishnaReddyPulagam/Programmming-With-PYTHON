@@ -19,6 +19,7 @@ for i in file:
             odd.write("\n")*
              
 **Output:**
+
 **Two new .txt files are created ie,even.txt and odd.txt**
       
 *In even.txt file:*
