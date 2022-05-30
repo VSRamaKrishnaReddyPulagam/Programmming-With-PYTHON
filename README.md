@@ -5,7 +5,7 @@ Program to read 10 numbers from a files. Write the even numbers and odd numbers 
 
 **Input:**
 
-*file = open("even_odd.txt","rt") 
+file = open("even_odd.txt","rt") 
 for i in file: 
     if i.strip: 
         num = int(i) 
@@ -16,7 +16,7 @@ for i in file:
         else: 
             odd = open("odd.txt","a") 
             odd.write(str(num)) 
-            odd.write("\n")*
+            odd.write("\n")
              
 **Output:**
 
